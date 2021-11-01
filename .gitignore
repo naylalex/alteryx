@@ -1,0 +1,6 @@
+.vscode/settings.json
+.ipynb_checkpoints
+__pycache__
+node_modules
+.log
+.vscode/settings.json
