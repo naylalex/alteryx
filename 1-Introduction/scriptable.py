@@ -1,5 +1,5 @@
 def accumulated_sum(i):
-    i = int(i)
+    i = int(i) #TODO: Validate argument can be casted to int
     if i < 0:
         raise Exception("Unsupported value.")
     if i == 0:
