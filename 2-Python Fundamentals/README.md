@@ -1,0 +1,26 @@
+# Módulo 2: Fundamentos de programación con Python
+
+En este modulo efectuarás prácticas de los siguientes conceptos:
+* Estructura de código
+* Tipos de datos, constantes y variables
+    * Booleanos
+    * Enteros
+    * Punto flotante
+    * Secuenciales
+    * Diccionarios
+* Control de flujo
+* Ciclos while y for
+* Funciones estándar, definidas por el usuario, anotación de funciones
+* Archivos (texto, XML, JSON, Excel)
+
+## Prácticas
+** Todos los archivos de prácticas se encuentran en este directorio
+
+### Prácticas de Python en el REPL
+[El REPL de Python](repl-lab.md)
+
+```
+python
+```
+
+### Prácticas de Python en Jupyter
