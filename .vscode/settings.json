@@ -1,3 +1,4 @@
 {
-    "jupyter.jupyterServerType": "remote"
+    "jupyter.jupyterServerType": "local",
+    "notebook.experimental.useMarkdownRenderer": true
 }
