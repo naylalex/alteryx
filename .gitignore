@@ -4,3 +4,7 @@ __pycache__
 node_modules
 .log
 .vscode/settings.json
+*.html
+slides/*.pdf
+slides/*.html
+
