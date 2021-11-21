@@ -4,7 +4,7 @@ En este modulo conoceremos y aplicaremos los aspectos generales de Python.
 ## Prácticas
 
 
-[El REPL de Python](repl_lab.ipynb)
+[El Intérprete de Python](repl_lab.ipynb)
 * Introducción al intérprete de Python
 * Múltiples instalaciones de Python
 * Modalidad interactiva
