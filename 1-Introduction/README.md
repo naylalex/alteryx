@@ -1,16 +1,10 @@
 # Módulo 1: Introducción a Python
 
 En este modulo conoceremos y aplicaremos los aspectos generales de Python.
-
 ## Prácticas
-** Todos los archivos de prácticas se encuentran en este directorio
 
-### Prácticas de Python en el REPL
-[El REPL de Python](repl-lab.md)
 
-```
-python
-```
+[El REPL de Python](repl_lab.ipynb)
 
-### Prácticas de Python en Jupyter
+[Introducción a Python en Jupyter](jupyter_intro.ipynb)
 
