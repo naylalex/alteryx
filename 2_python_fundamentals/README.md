@@ -16,8 +16,8 @@ En este modulo efectuarás prácticas de los siguientes conceptos:
 ## Prácticas
 ** Todos los archivos de prácticas se encuentran en este directorio
 
-### Prácticas de Python en el REPL
-[El REPL de Python](repl-lab.md)
+### Prácticas en el Intérprete de Python
+[El Intérprete de Python](repl-lab.md)
 
 ```
 python
