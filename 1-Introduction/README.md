@@ -1,8 +1,6 @@
 # Módulo 1: Introducción a Python
 
 En este modulo conoceremos y aplicaremos los aspectos generales de Python.
-## Prácticas
-
 
 [El Intérprete de Python](repl_lab.ipynb)
 * Introducción al intérprete de Python
