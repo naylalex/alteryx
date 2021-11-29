@@ -1,0 +1,1 @@
+cp *.slides.html ../docs
