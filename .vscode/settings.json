@@ -1,4 +1,7 @@
 {
     "jupyter.jupyterServerType": "local",
-    "notebook.experimental.useMarkdownRenderer": true
+    "notebook.experimental.useMarkdownRenderer": true,
+    "cSpell.words": [
+        "conceptualizarlas"
+    ]
 }
