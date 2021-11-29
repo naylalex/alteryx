@@ -1,2 +1,2 @@
-def pre_process_media(id):
-    print("Preprocessing media ID {} from ingress".format(id))
+def pre_process_media(some_id):
+    print("Preprocessing media ID {} from ingress".format(some_id))
