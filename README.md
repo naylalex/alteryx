@@ -6,4 +6,4 @@ In order to serve slides locally open a terminal and follow these steps:
 * Run `git submodule update`
 * Copy from slides/*.slides.html to `docs`
 * `npm install`
-* `npm run`
+* `npm start`
