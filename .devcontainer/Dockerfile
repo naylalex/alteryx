@@ -17,10 +17,16 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 #     && pip install --no-cache-dir pipx \
 #     && pipx reinstall-all
 # TODO: Confirm if it needed to install notebook and ipykernel
+#Per https://pythonspeed.com/articles/activate-conda-dockerfile/
+SHELL ["/bin/bash", "--login", "-c"]
+
+#RUN conda init bash
 RUN conda create --name alteryx python=3.8
 # conda activate alteryx fails as the shell has not been activated
 # check if RUN activate alteryx fixes the issue
-RUN activate alteryx
+RUN conda init bash
+RUN echo "conda activate alteryx" > ~/.bashrc
+RUN conda activate alteryx
 RUN conda install --name alteryx numpy
 RUN conda install --name alteryx pandas
 RUN conda install --name alteryx matplotlib
