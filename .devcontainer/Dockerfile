@@ -27,6 +27,8 @@ RUN conda create --name alteryx python=3.8
 RUN conda init bash
 RUN echo "conda activate alteryx" > ~/.bashrc
 RUN conda activate alteryx
+RUN conda install --name alteryx ipykernel
+RUN conda install --name alteryx notebook
 RUN conda install --name alteryx numpy
 RUN conda install --name alteryx pandas
 RUN conda install --name alteryx matplotlib
