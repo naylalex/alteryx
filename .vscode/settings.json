@@ -3,5 +3,6 @@
     "notebook.experimental.useMarkdownRenderer": true,
     "cSpell.words": [
         "conceptualizarlas"
-    ]
+    ],
+    "terminal.integrated.inheritEnv": false
 }
