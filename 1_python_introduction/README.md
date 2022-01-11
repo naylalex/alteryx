@@ -12,7 +12,6 @@ En este modulo conoceremos y aplicaremos los aspectos generales de Python.
 * Otras modalidades del intérprete: comandos y scripts
 * Distribuciones y entornos de ejecución de Python
 
-[Jupyter Notebook: Entornos y kernels](jupyter_intro.ipynb)
-* Conceptos: Project Jupyter, Jupyter Notebook, kernels y shell
+[Jupyter Notebook: Entornos y kernels](jupyter_packages.ipynb)
 * Instalación de paquetes Python en Jupyter Notebook
 * Manejo de kernels en Jupyter
