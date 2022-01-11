@@ -7,4 +7,5 @@ node_modules
 *.html
 slides/*.pdf
 slides/*.html
+docs/*.html
 
