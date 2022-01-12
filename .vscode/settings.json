@@ -1,5 +1,6 @@
 {
     "jupyter.jupyterServerType": "local",
+    "python.defaultInterpreterPath": "/opt/conda/envs/pyclass/bin/python",
     "python.jupyter.defaultKernel": "pyclass",
     "notebook.experimental.useMarkdownRenderer": true,
     "cSpell.words": [
