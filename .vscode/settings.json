@@ -4,5 +4,6 @@
     "cSpell.words": [
         "conceptualizarlas"
     ],
-    "terminal.integrated.inheritEnv": false
+    "terminal.integrated.inheritEnv": false,
+    "workbench.sideBar.location": "right"
 }
