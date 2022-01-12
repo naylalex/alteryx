@@ -21,17 +21,18 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 SHELL ["/bin/bash", "--login", "-c"]
 
 #RUN conda init bash
-RUN conda create --name alteryx python=3.8
-# conda activate alteryx fails as the shell has not been activated
-# check if RUN activate alteryx fixes the issue
+RUN conda create --name pyclass python=3.8
+# conda activate pyclass fails as the shell has not been activated
+# check if RUN activate pyclass fixes the issue
 RUN conda init bash
-RUN echo "conda activate alteryx" > ~/.bashrc
-RUN conda activate alteryx
-RUN conda install --name alteryx ipykernel
-RUN conda install --name alteryx notebook
-RUN conda install --name alteryx numpy
-RUN conda install --name alteryx pandas
-RUN conda install --name alteryx matplotlib
+RUN echo "conda activate pyclass" > ~/.bashrc
+RUN conda activate pyclass
+RUN conda install --name pyclass ipykernel
+RUN conda install --name pyclass notebook
+RUN conda install --name pyclass numpy
+RUN conda install --name pyclass pandas
+RUN conda install --name pyclass matplotlib
+RUN conda install --name pyclass scikit-learn
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
